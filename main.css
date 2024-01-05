@@ -1,0 +1,119 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 16%;
+    margin-right: 11.5%;
+    margin-bottom: 10%;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+#navigation-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+#navigation-bar li a {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+}
+
+#navigation-bar li a:hover {
+    text-decoration: underline;
+color:rgb(245, 175, 0);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    gap: 20px;
+    color: rgb(24, 24, 24);
+    width: 700px;
+    margin: auto;
+}
+
+#hero {
+    grid-column: 1 / -1;
+    height: 288px;
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 343px auto;
+
+}
+
+.hero-header {
+    grid-column: 1;
+    grid-row: 1;
+    width: 343px;
+    height: 182px;
+}
+
+.p {
+    grid-column: 2;
+    grid-row: 1;
+    width: 341px;
+    height: 115px;
+}
+
+.button {
+    grid-column: 2;
+    grid-row: 2;
+    width: 150px;
+    height: 50px;
+    justify-self: start;
+    background-color: #000929;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    color: rgb(245, 175, 0);
+}
+
+aside {
+    background-color: #000929;
+    padding: 15px;
+    color: aliceblue;
+}
+
+aside h2 {
+    margin-bottom: 20px;
+    color: #E9AA52;
+}
+
+aside a {
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color:rgb(245, 175, 0);
+}
