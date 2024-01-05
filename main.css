@@ -61,22 +61,25 @@ main {
 
 .content-grid {
     display: grid;
-    grid-template-columns: 343px auto;
+    /* grid-template-columns: 343px auto; */
+    grid-template-columns: 1fr 2fr;
 
 }
 
-.hero-header {
+#hero-header {
+    /* grid-template-columns: 1fr 2fr; */
     grid-column: 1;
     grid-row: 1;
-    width: 343px;
-    height: 182px;
+    /* width: 343px;
+    height: 182px; */
 }
 
-.p {
+#hero-paragraph {
+    /* grid-template-columns: 1fr 2fr; */
     grid-column: 2;
     grid-row: 1;
-    width: 341px;
-    height: 115px;
+    /* width: 341px;
+    height: 115px; */
 }
 
 .button {
@@ -84,6 +87,7 @@ main {
     grid-row: 2;
     width: 150px;
     height: 50px;
+    margin-top: -60px;
     justify-self: start;
     background-color: #000929;
     color: #ffffff;
